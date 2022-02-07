@@ -1,4 +1,7 @@
 {
   "private": true,
-  "workspaces": ["eslint-config", "eslint-config-react", "prettier"]
+  "workspaces": [
+    "@quartr/eslint-config",
+    "@quartr/eslint-config-react"
+  ]
 }

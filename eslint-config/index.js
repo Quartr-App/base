@@ -1,24 +1,31 @@
 module.exports = {
-    extends: ["airbnb", "eslint:recommended", "plugin:import/recommended"],
+    extends: ["airbnb", "eslint:recommended", "plugin:import/recommended", "plugin:security-node/recommended", "prettier"],
     env: {
-      node: true,
-      es6: true,
+        node: true,
+        es6: true,
     },
     parserOptions: {
-      ecmaVersion: 8,
+        ecmaVersion: 8,
     },
     plugins: [
-        'import'
+        "import",
+        "security-node",
+        "prettier",
+        "jest"
     ],
-    rules: {
-      quotes: [
-        "error",
-        "single",
-        {
-          allowTemplateLiterals: true,
-        },
-      ],
-      "no-var": ["error"],
-      "comma-dangle": ["error", "always-multiline"],
+    env: {
+        "jest/globals": true
     },
-  };
+    rules: {
+        quotes: [
+            "error",
+            "single",
+            {
+                allowTemplateLiterals: true,
+            },
+        ],
+        "no-var": ["error"],
+        "comma-dangle": ["error", "always-multiline"],
+        "prettier/prettier": ["error"]
+    },
+};
