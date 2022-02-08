@@ -1,5 +1,5 @@
 module.exports = {
-    extends: ["airbnb-base", "eslint:recommended", "plugin:import/recommended", "plugin:security-node/recommended", "prettier"],
+    extends: ["airbnb-base", "plugin:prettier/recommended", "prettier", "plugin:import/recommended", "plugin:security-node/recommended"],
     env: {
         node: true,
         es6: true,
@@ -17,15 +17,6 @@ module.exports = {
         "jest/globals": true
     },
     rules: {
-        quotes: [
-            "error",
-            "single",
-            {
-                allowTemplateLiterals: true,
-            },
-        ],
-        "no-var": ["error"],
-        "comma-dangle": ["error", "always-multiline"],
         "prettier/prettier": ["error"]
     },
 };
