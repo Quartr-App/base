@@ -2,10 +2,10 @@
 
 Base auxiliary configuration for Quartr
 
-## eslint-config
+## @quartr/eslint-config
 
-Used for node projects. Read the documentation [here](https://bitbucket.org/quartrapp/base/src/main/eslint-config/).
+Used for Node projects. Read the documentation [here](https://bitbucket.org/quartrapp/base/src/main/eslint-config/).
 
-## eslint-config-react
+## @quartr/eslint-config-react
 
-Used for react projects. More documentations will follow.
+Used for React projects. Read the documentation [here](https://bitbucket.org/quartrapp/base/src/main/eslint-config-react/).
