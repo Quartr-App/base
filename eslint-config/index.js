@@ -17,6 +17,7 @@ module.exports = {
         "jest/globals": true
     },
     rules: {
-        "prettier/prettier": ["error"]
+        "prettier/prettier": ["error"],
+        "no-underscore-dangle": "off"
     },
 };
