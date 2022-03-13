@@ -1,5 +1,5 @@
 module.exports = {
-    extends: ["@quartr/eslint-config-react"],
+    extends: ["@quartr/eslint-config-react", "plugin:import/typescript"],
     rules: {
         "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".jsx"] }],
         "import/extensions": [
