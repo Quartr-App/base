@@ -26,6 +26,14 @@ Used for React projects.
 npm install --save-dev @quartr/eslint-config-react
 ```
 
+## @quartr/eslint-config-react-typescript
+
+Used for React projects with Typescript
+
+```bash
+npm install --save-dev @quartr/eslint-config-react-typescript
+```
+
 # About Quartr
 
 While the world moved on, investor relations didn’t. Even today, in the age of the digital economy, finding relevant information and connecting with the companies you care about is time-consuming, one-way and analogue. Read more on [quartr.com](https://quartr.com).
