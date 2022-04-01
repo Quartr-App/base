@@ -5,7 +5,7 @@ module.exports = {
         es6: true,
     },
     parserOptions: {
-        ecmaVersion: 8,
+        ecmaVersion: 2020,
     },
     plugins: [
         "import",
@@ -19,5 +19,5 @@ module.exports = {
     rules: {
         "prettier/prettier": ["error"],
         "no-underscore-dangle": "off"
-    },
+    }
 };
