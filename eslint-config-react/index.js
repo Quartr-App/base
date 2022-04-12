@@ -34,6 +34,8 @@ module.exports = {
         "react/function-component-definition": [1, {
             "namedComponents":  "arrow-function",
             "unnamedComponents": "arrow-function"
-        }]
+        }],
+        "import/prefer-default-export": "off",
+        "import/no-default-export": "warn"
     },
 };
